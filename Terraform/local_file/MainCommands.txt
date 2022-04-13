@@ -1,0 +1,11 @@
+Command to initialize terraform
+    terraform init 
+
+Command to check and plan execution on terraform
+    terraform plan
+
+Command to execute on terraform
+    terraform apply
+
+Command to destroy on terraform
+    terraform destroy
