@@ -9,3 +9,6 @@ Command to execute on terraform
 
 Command to destroy on terraform
     terraform destroy
+
+Command to check info
+    terraform show
