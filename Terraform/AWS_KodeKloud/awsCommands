@@ -1,0 +1,5 @@
+#check aws cli version
+aws --version
+
+aws iam 
+
