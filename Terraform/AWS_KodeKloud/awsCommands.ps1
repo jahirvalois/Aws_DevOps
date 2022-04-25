@@ -18,6 +18,8 @@ aws --endpoint http://aws:4566 iam create-group --group-name XXXXXXXX
 aws --endpoint http://aws:4566 iam add-user-to-group --user-name XXXX --group-name XXXX
 
 
+aws --endpoint http://aws:4566 ec2 describe-instances --image-id ami-082b3eca746b12a89 --instance-type t2.large --key-name jade
+
 
 aws s3 cp imagetest.jpeg s3://s3bucketproject1
 aws s3 ls s3://s3bucketproject1
