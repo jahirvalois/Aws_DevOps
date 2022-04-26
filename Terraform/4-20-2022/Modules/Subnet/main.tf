@@ -1,5 +1,4 @@
 data "aws_vpc" "VPC" {
-  id = var.vpc_name
   tags = {
       Name = var.vpc_name
   }
