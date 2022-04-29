@@ -12,3 +12,8 @@ variable "tgw_name" {
   type=string
   default="tgw-name"
 }
+
+variable "tgw_vpc_attachment_name" {
+  type = string
+  default = "vpc_attachment"
+}

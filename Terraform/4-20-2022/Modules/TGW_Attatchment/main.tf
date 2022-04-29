@@ -25,4 +25,7 @@ resource "aws_ec2_transit_gateway_vpc_attachment" "vpc_attachment" {
   subnet_ids         = [data.aws_subnet.subnet_test.ids]
   transit_gateway_id = data.aws_ec2_transit_gateway.ec2_tgw.id
   vpc_id             = data.aws_vpc.VPC.id
+  tags = {
+    Name = var.tgw_vpc_attachment_name
+  }
 }
