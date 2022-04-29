@@ -1,4 +1,4 @@
-variable "regions" {
+variable "region" {
     type = string
     default = "us-east-1"
 }
@@ -8,7 +8,7 @@ variable "vpc_name" {
     default = "VPC"
 }
 
-variable "cidr" {
+variable "subnet_cidr" {
     type = string
     default = "10.15.1.0/24"
 }
