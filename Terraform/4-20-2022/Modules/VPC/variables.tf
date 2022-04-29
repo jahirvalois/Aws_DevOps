@@ -3,7 +3,7 @@ variable "cidr" {
     default = "10.15.0.0/16"
 }
 
-variable "regions" {
+variable "region" {
     type = string
     default = "us-east-1"
 }
