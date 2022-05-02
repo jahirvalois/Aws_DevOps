@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"igw","Source":"../../Modules/igw","Dir":"../../Modules/igw"},{"Key":"private_subnet","Source":"../../Modules/subnet","Dir":"../../Modules/subnet"},{"Key":"public_subnet","Source":"../../Modules/subnet","Dir":"../../Modules/subnet"},{"Key":"vpc","Source":"../../Modules/vpc","Dir":"../../Modules/vpc"},{"Key":"","Source":"","Dir":"."}]}
